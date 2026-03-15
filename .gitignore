@@ -4,3 +4,4 @@ media/*.wav
 media/kyle-sports-score-*-full.mp3
 media/kyle-sports-score-*.json
 media/kyle-sports-score-*-lyrics.txt
+.vercel

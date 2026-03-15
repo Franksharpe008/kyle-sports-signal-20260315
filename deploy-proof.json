@@ -1,0 +1,23 @@
+{
+  "project": "kyle-sports-signal",
+  "deployed_at": "2026-03-15T09:18:13-05:00",
+  "vercel": {
+    "deployment_id": "dpl_GndtBe5UKg5GGo4ENnuQ77J6K5E7",
+    "deployment_url": "https://kyle-sports-signal-de9s1p940-franksharpe008s-projects.vercel.app",
+    "short_url": "https://kyle-sports-signal.vercel.app",
+    "inspect_url": "https://vercel.com/franksharpe008s-projects/kyle-sports-signal/GndtBe5UKg5GGo4ENnuQ77J6K5E7",
+    "target": "production",
+    "status": "Ready"
+  },
+  "github": {
+    "repo": "https://github.com/Franksharpe008/kyle-sports-signal-20260315",
+    "branch": "master",
+    "initial_commit": "ec038dd"
+  },
+  "local_verification": {
+    "preview_url": "http://127.0.0.1:8784/",
+    "page_title": "Sports Signal | Kyle Follow-Up",
+    "audio_request": "GET /media/full-demo.mp3 => 206 Partial Content",
+    "asset_check": "missing: []"
+  }
+}

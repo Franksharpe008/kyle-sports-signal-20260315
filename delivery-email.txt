@@ -4,7 +4,7 @@ Kyle,
 
 I put together a fast visual follow-up on the business side of sports with motion, music, voiceover, and a few image-driven beats so the idea lands quicker:
 
-{{VERCEL_URL}}
+https://kyle-sports-signal.vercel.app
 
 The short version is simple: sports is not just competition. It is live attention, media rights, sponsorship, athlete brand power, data, and fan loyalty all moving together as one business engine.
 
