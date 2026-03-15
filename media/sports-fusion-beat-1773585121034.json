@@ -1,0 +1,41 @@
+{
+  "createdAt": "2026-03-15T14:32:01.961Z",
+  "taskId": "86c7c1f1-da4e-4ea0-9d46-03ba0851a307",
+  "prompt": "Original instrumental fusion beat for a premium sports presentation, modern hip-hop and electronic fusion, bright brass stabs, hard drums, stadium tension, cinematic risers, no vocals, no lyrics, built for a fast business sizzle reel.",
+  "instrumental": true,
+  "targetSeconds": 34,
+  "sourceFile": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/media/sports-fusion-beat-1773585121034-full.mp3",
+  "rawDuration": 95.108934,
+  "finalFile": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/media/sports-fusion-beat-1773585121034-34s.mp3",
+  "finalDuration": 34,
+  "lyricsFile": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/media/sports-fusion-beat-1773585121034-lyrics.txt",
+  "detail": {
+    "inpaint_params": null,
+    "extend_params": null,
+    "v2_params": {
+      "balance_strength": 0.7,
+      "seed": 2390492597,
+      "bpm": "auto"
+    },
+    "id": "86c7c1f1-da4e-4ea0-9d46-03ba0851a307",
+    "created_at": "2026-03-15T14:31:29.436028+00:00",
+    "status": "SUCCESS",
+    "alignment_status": null,
+    "model_version": "v2.2",
+    "song_paths": [
+      "https://cdn.sonauto.ai/pubapi/generations2/audio_86c7c1f1-da4e-4ea0-9d46-03ba0851a307_0.mp3"
+    ],
+    "error_message": null,
+    "lyrics": null,
+    "word_aligned_lyrics": null,
+    "prompt": "Original instrumental fusion beat for a premium sports presentation, modern hip-hop and electronic fusion, bright brass stabs, hard drums, stadium tension, cinematic risers, no vocals, no lyrics, built for a fast business sizzle reel.",
+    "prompt_strength": 2,
+    "tags": [
+      "trap",
+      "2020s",
+      "brass",
+      "cinematic",
+      "instrumental hip hop"
+    ]
+  }
+}

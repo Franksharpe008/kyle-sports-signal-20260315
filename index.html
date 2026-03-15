@@ -6,7 +6,7 @@
     <title>Sports Signal | Kyle Follow-Up</title>
     <meta
       name="description"
-      content="A quick animated follow-up for Kyle on the business of sports, with voiceover, music, brilliant color, and motion."
+      content="A quick animated follow-up for Kyle on the business of sports, refreshed with real sports footage, DiffusionBee stills, a fusion beat, and a cleaner voiceover."
     />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,8 +23,8 @@
         <p class="eyebrow">Kyle Follow-Up</p>
         <h1>Open the sports signal.</h1>
         <p>
-          A fast visual follow-up on the business side of sports, built with motion, music, voice,
-          and image-driven energy.
+          A fast visual follow-up on the business side of sports, now refreshed with real footage,
+          DiffusionBee visuals, a fusion beat, and a cleaner voice.
         </p>
         <button class="gate-button" id="launchButton">Enter the follow-up</button>
       </div>
@@ -43,6 +43,7 @@
       <nav>
         <a href="#hero">Launch</a>
         <a href="#lanes">Lanes</a>
+        <a href="#footage">Footage</a>
         <a href="#visuals">Visuals</a>
         <a href="#close">Close</a>
       </nav>
@@ -74,9 +75,9 @@
             <span>attention in motion.</span>
           </h1>
           <p class="lede">
-            Kyle, this is the fast visual version of the same thesis: the game is the surface, but
-            the real engine is live media, sponsorship, athlete identity, data, and fan behavior
-            compounding together.
+            Kyle, this updated pass tightens the same thesis with more proof and more atmosphere:
+            the game is the surface, but the real engine is live media, sponsorship, athlete
+            identity, data, and fan behavior compounding together.
           </p>
           <div class="hero-actions">
             <button class="primary-link" type="button" data-track="full-demo">Play full signal</button>
@@ -89,11 +90,11 @@
             </div>
             <div class="stat-chip">
               <span>02</span>
-              <strong>Commerce layers</strong>
+              <strong>Real footage</strong>
             </div>
             <div class="stat-chip">
               <span>03</span>
-              <strong>Cultural loyalty</strong>
+              <strong>Fusion energy</strong>
             </div>
           </div>
         </div>
@@ -101,15 +102,18 @@
         <div class="hero-stage tilt-card">
           <div class="stage-ring stage-ring-a"></div>
           <div class="stage-ring stage-ring-b"></div>
-          <img src="./images/sports-hero.svg" alt="Neon sports arena with premium broadcast lighting" />
+          <img
+            src="./images/sports-hero-diffusionbee.png"
+            alt="DiffusionBee sports stadium hero with premium broadcast lighting"
+          />
           <div class="stage-overlay">
             <div>
-              <span>Signal</span>
-              <strong>Broadcast-grade energy</strong>
+              <span>Visual</span>
+              <strong>DiffusionBee hero frame</strong>
             </div>
             <div>
-              <span>Position</span>
-              <strong>Sports as a full business system</strong>
+              <span>Mix</span>
+              <strong>Real footage plus fusion beat</strong>
             </div>
           </div>
         </div>
@@ -139,6 +143,47 @@
             Personality, narrative, and audience ownership increase value beyond the field and
             create room for long-tail brand and venture plays.
           </p>
+        </article>
+      </section>
+
+      <section class="footage-panel reveal" id="footage">
+        <article class="footage-media tilt-card">
+          <video
+            id="footageVideo"
+            class="footage-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            poster="./images/real-sports-footage-poster.jpg"
+          >
+            <source src="./media/real-sports-footage.mp4" type="video/mp4" />
+          </video>
+          <div class="footage-flag">Real Sports Footage</div>
+          <div class="footage-overlay">
+            <p class="eyebrow">Live Atmosphere</p>
+            <h2>Real footage adds proof to the motion.</h2>
+            <p>
+              Broadcast energy lands harder when the page carries actual stadium movement instead
+              of simulated loops.
+            </p>
+          </div>
+        </article>
+
+        <article class="footage-side tilt-card">
+          <img
+            src="./images/sports-crowd-diffusionbee.png"
+            alt="DiffusionBee crowd scene with vivid arena lighting and premium sports energy"
+          />
+          <div class="footage-side-copy">
+            <p class="eyebrow">Image Layer</p>
+            <h2>DiffusionBee keeps the stills dramatic without flattening the page.</h2>
+            <p>
+              The stills carry scoreboard pressure and crowd scale, while the footage adds the live
+              pulse underneath it.
+            </p>
+          </div>
         </article>
       </section>
 
@@ -214,7 +259,7 @@
         <div class="audio-controls">
           <button id="playPause" type="button">Play</button>
           <button type="button" data-track="full-demo">Full signal</button>
-          <button type="button" data-track="score-bed">Score</button>
+          <button type="button" data-track="score-bed">Fusion beat</button>
           <button type="button" data-track="intro-voice">Intro</button>
           <button type="button" data-track="closer-voice">Closer</button>
         </div>

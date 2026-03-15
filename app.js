@@ -2,22 +2,22 @@ const tracks = {
   "full-demo": {
     file: "./media/full-demo.mp3",
     label: "Full signal",
-    description: "Combined score and voice for the fastest read on the idea.",
+    description: "Fusion beat plus the updated cleaner voice for the fastest read on the idea.",
   },
   "score-bed": {
     file: "./media/score-bed.mp3",
-    label: "Score bed",
-    description: "Arena-style instrumental with bright lift and broadcast pressure.",
+    label: "Fusion beat",
+    description: "Updated fusion-style score with brighter lift and more stadium pressure.",
   },
   "intro-voice": {
     file: "./media/intro-voice.mp3",
     label: "Intro voice",
-    description: "Quick voice follow-up tailored to Kyle.",
+    description: "Updated ChatTTS intro with a cleaner, smoother delivery.",
   },
   "closer-voice": {
     file: "./media/closer-voice.mp3",
     label: "Closer voice",
-    description: "Short closer that lands the business angle.",
+    description: "Updated closer with tighter pacing and less rasp.",
   },
 };
 
@@ -32,6 +32,7 @@ const audioDock = document.getElementById("audioDock");
 const audioPanel = audioDock.querySelector(".audio-panel");
 const audioToggle = document.getElementById("audioToggle");
 const audioHide = document.getElementById("audioHide");
+const footageVideo = document.getElementById("footageVideo");
 let currentTrack = "full-demo";
 
 function setTrack(name, autoplay = false) {
@@ -123,6 +124,14 @@ function setupGate() {
     gate.classList.add("is-open");
     togglePanel(true);
     setTrack("full-demo", true);
+  });
+}
+
+function setupFootage() {
+  if (!footageVideo) return;
+  footageVideo.playbackRate = 0.82;
+  footageVideo.addEventListener("loadedmetadata", () => {
+    footageVideo.play().catch(() => {});
   });
 }
 
@@ -228,4 +237,5 @@ setupGate();
 setupAudio();
 setupReveals();
 setupTilt();
+setupFootage();
 setupArena();

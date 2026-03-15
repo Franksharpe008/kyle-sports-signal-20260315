@@ -266,6 +266,7 @@ body::before {
 
 .hero,
 .lane-grid,
+.footage-panel,
 .visual-grid,
 .pulse-panel,
 .close-panel {
@@ -346,7 +347,9 @@ body::before {
 }
 
 .hero-stage img,
-.visual-card img {
+.visual-card img,
+.footage-side img,
+.footage-video {
   display: block;
   width: 100%;
   height: 100%;
@@ -431,10 +434,86 @@ body::before {
 
 .lane-card p,
 .visual-copy p:last-child,
+.footage-overlay p:last-child,
+.footage-side-copy p:last-child,
 .pulse-copy p,
 .close-copy p {
   color: var(--muted);
   line-height: 1.75;
+}
+
+.footage-panel {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 1rem;
+}
+
+.footage-media,
+.footage-side {
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+  min-height: 420px;
+}
+
+.footage-video {
+  background: #03060d;
+}
+
+.footage-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(4, 8, 18, 0.02), rgba(4, 8, 18, 0.2) 45%, rgba(4, 8, 18, 0.74)),
+    linear-gradient(120deg, rgba(255, 127, 50, 0.16), transparent 34%, rgba(68, 185, 255, 0.12));
+  pointer-events: none;
+}
+
+.footage-flag {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 2;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(6, 11, 22, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  color: var(--arena-gold);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+.footage-overlay,
+.footage-side-copy {
+  position: absolute;
+  inset: auto 1rem 1rem 1rem;
+  z-index: 2;
+  padding: 1.15rem;
+  border-radius: 20px;
+  background: rgba(4, 8, 18, 0.74);
+  backdrop-filter: blur(16px);
+}
+
+.footage-overlay h2,
+.footage-side-copy h2 {
+  margin: 0 0 0.45rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  letter-spacing: 0.03em;
+  line-height: 0.95;
+}
+
+.footage-side::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(4, 8, 18, 0.06), rgba(4, 8, 18, 0.68)),
+    radial-gradient(circle at top right, rgba(255, 63, 168, 0.16), transparent 28%);
+  pointer-events: none;
+  z-index: 1;
 }
 
 .visual-grid {
@@ -677,6 +756,7 @@ body::before {
 
 @media (max-width: 980px) {
   .hero,
+  .footage-panel,
   .pulse-panel,
   .close-panel,
   .visual-grid {

@@ -1,0 +1,24 @@
+[
+  {
+    "slug": "intro-voice",
+    "text": "Kyle. [uv_break] This updated pass shows the industry the way it really moves. [uv_break] Sports is live attention, sponsorship, athlete identity, data, and fan loyalty operating like one business engine.",
+    "wav": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/media/intro-voice.wav",
+    "mp3": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/media/intro-voice.mp3",
+    "duration_seconds": 10.536,
+    "speaker": "magnus",
+    "median_pitch_hz": 116.505,
+    "prompt": "[oral_3][speed_4][break_6]",
+    "temperature": 0.2
+  },
+  {
+    "slug": "closer-voice",
+    "text": "If you want the next pass, I can split it by lane. [uv_break] Teams. Athletes. Media rights. College N I L. Youth. Sponsorship. Sports tech. [uv_break] That is where the opportunity gets sharper fast.",
+    "wav": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/media/closer-voice.wav",
+    "mp3": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/media/closer-voice.mp3",
+    "duration_seconds": 10.322,
+    "speaker": "magnus",
+    "median_pitch_hz": 116.505,
+    "prompt": "[oral_3][speed_4][break_6]",
+    "temperature": 0.2
+  }
+]

@@ -1,0 +1,88 @@
+{
+  "updated_at": "2026-03-15T09:36:00-05:00",
+  "visuals": {
+    "hero_image": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/images/sports-hero-diffusionbee.png",
+    "crowd_image": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/images/sports-crowd-diffusionbee.png",
+    "poster_image": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/images/real-sports-footage-poster.jpg",
+    "diffusionbee_source_images": [
+      "/Users/franksharpe/.diffusionbee/images/cinematicpremiumsportsbusin_33232860.png",
+      "/Users/franksharpe/.diffusionbee/images/cinematicpremiumsportscrowd_34922257.png"
+    ],
+    "diffusionbee_model": "/Users/franksharpe/.diffusionbee/downloaded_assets/Default_SDB_0.1_SDB_0.1.tdict"
+  },
+  "footage": {
+    "local_file": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/media/real-sports-footage.mp4",
+    "poster": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/images/real-sports-footage-poster.jpg",
+    "source_url": "https://cdn.pixabay.com/video/2019/06/03/24166-340670680_small.mp4",
+    "source_site": "Pixabay"
+  },
+  "audio": {
+    "score_bed": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/media/score-bed.mp3",
+    "full_demo": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/media/full-demo.mp3",
+    "fusion_meta": {
+      "createdAt": "2026-03-15T14:32:01.961Z",
+      "taskId": "86c7c1f1-da4e-4ea0-9d46-03ba0851a307",
+      "prompt": "Original instrumental fusion beat for a premium sports presentation, modern hip-hop and electronic fusion, bright brass stabs, hard drums, stadium tension, cinematic risers, no vocals, no lyrics, built for a fast business sizzle reel.",
+      "instrumental": true,
+      "targetSeconds": 34,
+      "sourceFile": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/media/sports-fusion-beat-1773585121034-full.mp3",
+      "rawDuration": 95.108934,
+      "finalFile": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/media/sports-fusion-beat-1773585121034-34s.mp3",
+      "finalDuration": 34,
+      "lyricsFile": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/media/sports-fusion-beat-1773585121034-lyrics.txt",
+      "detail": {
+        "inpaint_params": null,
+        "extend_params": null,
+        "v2_params": {
+          "balance_strength": 0.7,
+          "seed": 2390492597,
+          "bpm": "auto"
+        },
+        "id": "86c7c1f1-da4e-4ea0-9d46-03ba0851a307",
+        "created_at": "2026-03-15T14:31:29.436028+00:00",
+        "status": "SUCCESS",
+        "alignment_status": null,
+        "model_version": "v2.2",
+        "song_paths": [
+          "https://cdn.sonauto.ai/pubapi/generations2/audio_86c7c1f1-da4e-4ea0-9d46-03ba0851a307_0.mp3"
+        ],
+        "error_message": null,
+        "lyrics": null,
+        "word_aligned_lyrics": null,
+        "prompt": "Original instrumental fusion beat for a premium sports presentation, modern hip-hop and electronic fusion, bright brass stabs, hard drums, stadium tension, cinematic risers, no vocals, no lyrics, built for a fast business sizzle reel.",
+        "prompt_strength": 2,
+        "tags": [
+          "trap",
+          "2020s",
+          "brass",
+          "cinematic",
+          "instrumental hip hop"
+        ]
+      }
+    },
+    "voice_manifest": [
+      {
+        "slug": "intro-voice",
+        "text": "Kyle. [uv_break] This updated pass shows the industry the way it really moves. [uv_break] Sports is live attention, sponsorship, athlete identity, data, and fan loyalty operating like one business engine.",
+        "wav": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/media/intro-voice.wav",
+        "mp3": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/media/intro-voice.mp3",
+        "duration_seconds": 10.536,
+        "speaker": "magnus",
+        "median_pitch_hz": 116.505,
+        "prompt": "[oral_3][speed_4][break_6]",
+        "temperature": 0.2
+      },
+      {
+        "slug": "closer-voice",
+        "text": "If you want the next pass, I can split it by lane. [uv_break] Teams. Athletes. Media rights. College N I L. Youth. Sponsorship. Sports tech. [uv_break] That is where the opportunity gets sharper fast.",
+        "wav": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/media/closer-voice.wav",
+        "mp3": "/Users/franksharpe/Documents/New project/output/kyle-sports-signal/media/closer-voice.mp3",
+        "duration_seconds": 10.322,
+        "speaker": "magnus",
+        "median_pitch_hz": 116.505,
+        "prompt": "[oral_3][speed_4][break_6]",
+        "temperature": 0.2
+      }
+    ]
+  }
+}
