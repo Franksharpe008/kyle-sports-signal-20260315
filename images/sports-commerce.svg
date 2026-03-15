@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 864">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#061018" />
+      <stop offset="50%" stop-color="#0d2030" />
+      <stop offset="100%" stop-color="#09111b" />
+    </linearGradient>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#44b9ff" />
+      <stop offset="50%" stop-color="#98ff66" />
+      <stop offset="100%" stop-color="#ffd84e" />
+    </linearGradient>
+  </defs>
+  <rect width="1536" height="864" fill="url(#bg)" />
+  <g opacity="0.22">
+    <circle cx="280" cy="190" r="180" fill="#44b9ff" />
+    <circle cx="1260" cy="160" r="160" fill="#ff3fa8" />
+    <circle cx="1140" cy="680" r="210" fill="#98ff66" />
+  </g>
+  <g opacity="0.9">
+    <rect x="170" y="150" width="1196" height="540" rx="34" fill="#091521" stroke="#ffffff" stroke-opacity="0.1" />
+    <rect x="218" y="204" width="480" height="180" rx="22" fill="#0f2030" stroke="#44b9ff" stroke-opacity="0.32" />
+    <rect x="748" y="204" width="568" height="120" rx="22" fill="#111b26" stroke="#98ff66" stroke-opacity="0.28" />
+    <rect x="748" y="354" width="568" height="286" rx="22" fill="#111b26" stroke="#ffd84e" stroke-opacity="0.22" />
+    <rect x="218" y="422" width="480" height="218" rx="22" fill="#0f2030" stroke="#ff7f32" stroke-opacity="0.25" />
+  </g>
+  <g opacity="0.78">
+    <path d="M258 596 366 520 470 558 590 468 654 504" fill="none" stroke="url(#screen)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="786" y="398" width="468" height="18" rx="9" fill="#44b9ff" fill-opacity="0.22" />
+    <rect x="786" y="442" width="382" height="18" rx="9" fill="#98ff66" fill-opacity="0.26" />
+    <rect x="786" y="486" width="512" height="18" rx="9" fill="#ffd84e" fill-opacity="0.3" />
+    <rect x="786" y="530" width="330" height="18" rx="9" fill="#ff7f32" fill-opacity="0.32" />
+    <rect x="786" y="574" width="420" height="18" rx="9" fill="#ff3fa8" fill-opacity="0.28" />
+  </g>
+  <g opacity="0.34" stroke="#ffffff">
+    <path d="M266 250h384" />
+    <path d="M266 282h250" />
+    <path d="M786 238h386" />
+    <path d="M786 268h282" />
+  </g>
+</svg>

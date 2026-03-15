@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 864">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07111f" />
+      <stop offset="50%" stop-color="#15183a" />
+      <stop offset="100%" stop-color="#09060f" />
+    </linearGradient>
+    <radialGradient id="glowA" cx="35%" cy="28%" r="48%">
+      <stop offset="0%" stop-color="#44b9ff" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#44b9ff" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowB" cx="74%" cy="24%" r="38%">
+      <stop offset="0%" stop-color="#ff3fa8" stop-opacity="0.76" />
+      <stop offset="100%" stop-color="#ff3fa8" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="field" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d1931" />
+      <stop offset="100%" stop-color="#03060d" />
+    </linearGradient>
+  </defs>
+  <rect width="1536" height="864" fill="url(#bg)" />
+  <rect width="1536" height="864" fill="url(#glowA)" />
+  <rect width="1536" height="864" fill="url(#glowB)" />
+  <g opacity="0.28">
+    <path d="M0 615C170 560 312 534 470 520c203-17 364 33 533 46 216 16 354-28 533-92v390H0Z" fill="#0d1020" />
+    <path d="M0 706c186-57 392-64 608-39 171 20 355 61 561 48 136-9 246-36 367-83v232H0Z" fill="#12172d" />
+  </g>
+  <g opacity="0.9">
+    <path d="M220 690c166-195 930-192 1096 0" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="8" />
+    <path d="M286 692c140-147 820-146 964 0" fill="none" stroke="#ffd84e" stroke-opacity="0.34" stroke-width="5" />
+  </g>
+  <g opacity="0.8">
+    <rect x="170" y="168" width="28" height="402" rx="14" fill="#44b9ff" />
+    <rect x="228" y="128" width="14" height="470" rx="7" fill="#ffd84e" />
+    <rect x="1290" y="136" width="26" height="398" rx="13" fill="#ff7f32" />
+    <rect x="1338" y="104" width="12" height="470" rx="6" fill="#98ff66" />
+  </g>
+  <g opacity="0.72">
+    <path d="M398 706l154-192 102 134 125-190 186 248Z" fill="url(#field)" stroke="#ffffff" stroke-opacity="0.16" />
+    <path d="M515 622 638 496l68 87 66-97 99 136Z" fill="none" stroke="#44b9ff" stroke-width="6" />
+    <circle cx="639" cy="496" r="16" fill="#ffd84e" />
+    <circle cx="772" cy="486" r="18" fill="#ff3fa8" />
+    <circle cx="868" cy="622" r="20" fill="#98ff66" />
+  </g>
+  <g opacity="0.28" stroke="#ffffff">
+    <path d="M350 302h866" />
+    <path d="M408 266h720" />
+    <path d="M472 228h592" />
+  </g>
+</svg>
