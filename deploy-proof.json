@@ -12,7 +12,8 @@
   "github": {
     "repo": "https://github.com/Franksharpe008/kyle-sports-signal-20260315",
     "branch": "master",
-    "latest_commit": "20c4311"
+    "deployed_commit": "20c4311",
+    "proof_commit": "3ea88a2"
   },
   "local_verification": {
     "preview_url": "http://127.0.0.1:8785/",
